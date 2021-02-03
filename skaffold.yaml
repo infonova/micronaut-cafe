@@ -2,7 +2,12 @@ apiVersion: skaffold/v2beta11
 kind: Config
 metadata:
   name: micronaut-cafe
+build:
+  artifacts:
+    - image: gcr.io/micronaut-cafe/jib-image
+      jib:
+        { }
 deploy:
   kubectl:
     manifests:
-    - k8s.yml
+      - k8s.yml

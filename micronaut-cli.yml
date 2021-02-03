@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.bervol
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jdbc, gradle, http-client, java, java-application, jdbc-hikari, jib, junit, kubernetes, liquibase, log4j2, lombok, management, netty-server, postgres, properties, readme, shade, testcontainers]

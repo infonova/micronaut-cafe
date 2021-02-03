@@ -20,12 +20,6 @@
 
 - [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
 
-## Feature liquibase documentation
-
-- [Micronaut Liquibase Database Migration documentation](https://micronaut-projects.github.io/micronaut-liquibase/latest/guide/index.html)
-
-- [https://www.liquibase.org/](https://www.liquibase.org/)
-
 ## Feature jdbc-hikari documentation
 
 - [Micronaut Hikari JDBC Connection Pool documentation](https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbc)

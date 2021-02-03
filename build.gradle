@@ -53,9 +53,8 @@ java {
 }
 
 
-
-    jib {
-        to {
-            image = "gcr.io/myapp/jib-image"
-        }
+jib {
+    to {
+        image = "gcr.io/myapp/jib-image"
     }
+}

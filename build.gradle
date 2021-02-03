@@ -1,5 +1,4 @@
 plugins {
-    id("com.github.johnrengelman.shadow") version "6.1.0"
     id("io.micronaut.application") version "1.3.3"
     id("com.google.cloud.tools.jib") version "2.7.1"
 }
@@ -9,7 +8,6 @@ group = "io.bervol"
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 micronaut {
@@ -41,7 +39,6 @@ dependencies {
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:postgresql")
 }
-
 
 application {
     mainClass.set("io.bervol.Application")

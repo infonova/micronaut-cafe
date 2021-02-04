@@ -21,15 +21,10 @@ spec:
             httpGet:
               path: /health/readiness
               port: 8080
-            initialDelaySeconds: 5
-            timeoutSeconds: 3
           livenessProbe:
             httpGet:
               path: /health/liveness
               port: 8080
-            initialDelaySeconds: 5
-            timeoutSeconds: 3
-            failureThreshold: 10
         - name: "postgres"
           image: "postgres:alpine"
           ports:

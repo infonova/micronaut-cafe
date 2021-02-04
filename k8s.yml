@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: "micronaut-cafe"
-          image: "gcr.io/micronaut-cafe/jib-image"
+          image: "eu.gcr.io/tools-org-veroo/jib-image"
           ports:
             - name: http
               containerPort: 8080

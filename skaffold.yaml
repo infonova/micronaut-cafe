@@ -4,7 +4,7 @@ metadata:
   name: micronaut-cafe
 build:
   artifacts:
-    - image: gcr.io/micronaut-cafe/jib-image
+    - image: eu.gcr.io/tools-org-veroo/jib-image
       jib:
         type: gradle
 deploy:

@@ -1,9 +1,24 @@
+# micronaut-cafe
+
+start local postgres database:
+
+```shell
+docker run -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres:alpine 
+```
+
+deploy to GCE cluster:
+
+```shell
+kubectx gke_dev-org-veroo_europe-west1_gke1 && kubens mika && skaffold run --tail
+```
+
 ## Micronaut 2.3.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/2.3.1/guide/index.html)
 - [API Reference](https://docs.micronaut.io/2.3.1/api/index.html)
 - [Configuration Reference](https://docs.micronaut.io/2.3.1/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
+
 ---
 
 ## Feature http-client documentation

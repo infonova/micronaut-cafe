@@ -9,3 +9,8 @@ datasources:
     password: "postgres"
     dialect: "POSTGRES"
     initialization-fail-timeout: 30
+endpoints:
+  all:
+    enabled: false
+  health:
+    enabled: true

@@ -26,5 +26,7 @@ jobs:
           key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
           restore-keys: |
             ${{ runner.os }}-gradle-
-      - name: Build Native Image
-        run: ./gradlew dockerBuildNative
+      - name: Build with Gradle
+        run: ./gradlew build
+      - name: Test Jib build
+        run: ./gradlew jibDockerBuild
